@@ -1,28 +1,50 @@
 Privacy Policy for NetFuel VPN
-Effective Date: January 13, 2026
-1. Introduction Welcome to NetFuel. Your privacy is our top priority. This Privacy Policy explains how we collect, use, and protect your information when you use our free VPN service.
-2. Zero-Logs Policy (VPN) We maintain a strict No-Logs Policy.
+Effective Date: March 5, 2026
+1. Introduction
+Welcome to NetFuel. Your privacy and data security are our top priorities. This Privacy Policy explains how we collect, use, and protect your information when you use our VPN application. By using NetFuel, you agree to the terms outlined in this policy.
+2. Core Functionality: Android VpnService
+NetFuel’s primary purpose is to provide a secure and encrypted internet connection. To achieve this, our app utilizes the Android VpnService API.
 •
-We do not collect or log your browsing history, traffic destination, data content, or DNS queries.
+Why we use it: The VpnService is essential for creating a secure, device-level tunnel to our remote servers.
 •
-We do not store your original IP address or the IP address of the VPN server you connect to. Your online activities are completely anonymous and private.
-3. Data Usage & Limits NetFuel provides a free service with a daily limit (e.g., 5GB). To enforce these limits:
+Encryption: This tunnel encrypts all your internet traffic, protecting your data from hackers and third-party tracking, especially on public or unsecured Wi-Fi networks.
 •
-We track the amount of data (MB/GB) transferred during your active sessions.
+Mandatory Use: Without the VpnService, NetFuel cannot perform its core function of securing your digital identity.
+3. Zero-Logs Policy
+We maintain a strict Zero-Logs policy. We do not monitor, record, or store any of the following:
 •
-This tracking is associated with a unique device identifier (Android ID) to ensure fair usage and reset limits every 24 hours.
-4. Advertising (Google AdMob) To keep our VPN free, we use Google AdMob to show advertisements.
+Your browsing history or the websites you visit.
 •
-AdMob may collect and use anonymous data (such as advertising IDs) to show personalized ads.
+The destination of your traffic or data content.
 •
-You can manage your ad preferences in your Google Account settings.
-5. Permissions
+Your original IP address or the VPN IP address assigned to you.
 •
-VPN Service: Our app requires the VPNService permission to create a secure, encrypted tunnel to our servers. Without this, the app cannot function.
+DNS queries or connection timestamps.
+4. Data Optimization & CDN Tunneling
+To ensure high-speed connectivity and optimize performance on low-balance or unstable networks, NetFuel may utilize CDN (Content Delivery Network) Bridge technologies.
 •
-Notifications: We use notifications to alert you when you reach data limits or need to watch ads to unlock more data.
-6. Data Security We use industry-standard encryption protocols to protect your data while it is in transit through our VPN tunnel. However, no method of transmission over the internet is 100% secure.
-7. Third-Party Links Our app may contain links to other sites (like Privacy Policies or Support). We are not responsible for the content or privacy practices of those third-party services.
-8. Children's Privacy NetFuel does not knowingly collect personally identifiable information from children under 13. If we discover a child has provided us with personal info, we immediately delete it.
-9. Changes to This Policy We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes.
-10. Contact Us If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at: support@netfuel.app
+This process involves routing encrypted data packets through global edge nodes to reduce latency and maintain stability.
+•
+No personal data is decrypted or inspected during this optimization process.
+5. Information We Collect
+•
+Device Information: We may collect non-personal data such as your device model, OS version, and language settings to improve app stability and performance.
+•
+Data Usage: We track the total amount of data (MB/GB) transferred during a session to enforce daily limits and manage server load. This data is anonymous and not linked to your personal identity.
+•
+Account Information: If you use Google Sign-In or Firebase authentication, we store your basic profile information (Email/Name) solely to manage your rewards, referrals, and coins.
+6. Advertising & Third-Party Services
+•
+Google AdMob: We use AdMob to display advertisements. AdMob may collect anonymous advertising identifiers to show relevant ads. You can manage these preferences in your Google Account settings.
+•
+Firebase: We use Google Firebase for real-time database synchronization, authentication, and crash reporting. These services help us maintain app performance and sync your reward progress.
+7. Data Security
+We implement industry-standard AES-256 encryption to protect the data transmitted through our VPN tunnel. While no system is 100% secure, we continuously update our protocols to ensure the highest level of protection for our users.
+8. Children’s Privacy
+NetFuel does not knowingly collect personal information from children under the age of 13. If we discover that a child has provided us with personal information, we will delete it immediately.
+9. Changes to This Policy
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Effective Date."
+10. Contact Us
+If you have any questions or suggestions about our Privacy Policy, please contact us:
+•
+Email: netfuelindia@gmail.com
